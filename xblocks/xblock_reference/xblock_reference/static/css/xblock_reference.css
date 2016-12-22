@@ -1,0 +1,9 @@
+/* CSS for ReferenecXBlock */
+
+.xblock_reference_block .count {
+    font-weight: bold;
+}
+
+.xblock_reference_block p {
+    cursor: pointer;
+}

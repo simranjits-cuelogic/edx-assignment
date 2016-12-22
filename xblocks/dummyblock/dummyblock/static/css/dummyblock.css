@@ -1,0 +1,9 @@
+/* CSS for DummyXBlock */
+
+.dummyblock_block .count {
+    font-weight: bold;
+}
+
+.dummyblock_block p {
+    cursor: pointer;
+}

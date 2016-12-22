@@ -1,0 +1,28 @@
+<div class="block-studio">
+{% if references %}
+<table>
+    <thead>
+        <tr>
+            <th>Link</th>
+            <th>Desc</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for reference in references %}
+        <tr>
+            <td>{{ reference.reference_link }}</td>
+            <td>{{ reference.reference_description }}</td>
+            <td data-reference="{{reference.id}}">
+                <a href="#" data-action='add'>Add</a> |
+                <a href="#" data-action='remove'>Remove</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+
+</table>
+{% else %}
+    <div class="text-center">Empty Bucket!</div>
+{% endif %}
+</div>

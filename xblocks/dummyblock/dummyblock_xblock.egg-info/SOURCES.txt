@@ -1,0 +1,12 @@
+dummyblock/__init__.py
+dummyblock/dummyblock.py
+dummyblock/static/README.txt
+dummyblock/static/css/dummyblock.css
+dummyblock/static/html/dummyblock.html
+dummyblock/static/js/src/dummyblock.js
+dummyblock_xblock.egg-info/PKG-INFO
+dummyblock_xblock.egg-info/SOURCES.txt
+dummyblock_xblock.egg-info/dependency_links.txt
+dummyblock_xblock.egg-info/entry_points.txt
+dummyblock_xblock.egg-info/requires.txt
+dummyblock_xblock.egg-info/top_level.txt
